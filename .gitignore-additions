@@ -1,0 +1,10 @@
+# --- unity-lead workflow: add these lines to your project's .gitignore ---
+# Gate state is per machine/session; don't commit it.
+.claude/state/
+.claude/settings.local.json
+.claude/agent-memory-local/
+
+# Keep these committed:
+#   .claude/agents/  .claude/skills/  .claude/hooks/  .claude/settings.json
+#   .claude/agent-memory/unity-architect/   (the architect's notes and your learning profile)
+#   docs/reviews/                           (every step report and quiz result)
